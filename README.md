@@ -1,11 +1,11 @@
 # SplashGUI
 
-A native macOS SwiftUI front-end for the [Splash](https://github.com/incoai/splash) inference engine. Developed because I wasn't aware Splash offered their own desktop app, and I wanted to see stats and specific settings in a layout I liked.
+A native macOS SwiftUI frontend for the [Splash](https://github.com/incoai/splash) inference engine. Developed because I wasn't aware Splash offered their own desktop app, and I wanted to see stats and specific settings in a layout I liked.
 
-SplashGUI is only a front-end. The engine binary is downloaded from the upstream project at first launch; see [the engine's README](https://github.com/incoai/splash) for how the engine itself works.
+SplashGUI is only a frontend. The engine binary is downloaded from the upstream project at first launch; see [the engine's README](https://github.com/incoai/splash) for how the engine itself works.
 
 ## Features
-The top bar is always present, and shows engine status (while loading) and context usage (once loaded). It has a prefill/decode block that'll flip green for whichever the model is currently doing, the server URL (and configurable port settign), the apply & restart button, and the start/stop button. There's 3 tabs with additional settings and information:
+The top bar is always present, and shows engine status (while loading) and context usage (once loaded). It has a prefill/decode block that'll flip green for whichever the model is currently doing, the server URL (and configurable port setting), the apply & restart button, and the start/stop button. There's 3 tabs with additional settings and information:
 ![SplashGUI run tab, showing main settings](images/Run.png)
 Run tab: Model picker, settings requiring a restart, default reasoning level, engine version settings. Toggling "Auto" will pick context, memory, SSD cache, and KV Cache quantization based on hardware/Splash engine defaults. Optional toggles to disable the splash web chat server and the vision heads (the latter will save a smidge of VRAM). 
 
