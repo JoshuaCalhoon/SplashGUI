@@ -1,0 +1,17 @@
+# Project memory - local working notes, never published.
+project-memory.md
+architecture.md
+mapfile.md
+to-do.md
+nextchat.md
+design.md
+
+# Build output
+.build/
+build/
+
+# macOS
+.DS_Store
+
+# scratch folder
+scratch/
